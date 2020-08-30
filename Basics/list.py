@@ -16,3 +16,11 @@ li2.pop(1)
 # insert at specific value .insert(index,value)
 #clear() clear the entire list
 # count counts the no of value in the list
+
+
+# more functions are sort, sorted, reverse, range
+
+#list unpacking
+
+a,b=[1,3]
+print(a,b)
