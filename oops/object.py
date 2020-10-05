@@ -8,3 +8,4 @@ class ashish: #class declaration
 x=ashish("raju") #calling class
 
 print(x.loda())
+print(x.sex)
