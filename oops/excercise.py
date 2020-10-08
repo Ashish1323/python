@@ -24,18 +24,22 @@ class Simon(Cat):
 class Sally(Cat):
     def sing(self, sounds):
         return f'{sounds}'
+
 class ally(Cat):
     def sing(self, sounds):
-        return f'{sounds}'
+        return f'{sounds}'        
+
+simon=Simon("Simon",10)
+sall=Sally("Sally",11)
+alel=ally("Ally",12)
 
 #1 Add nother Cat
 
 #2 Create a list of all of the pets (create 3 cat instances from the above)
-my_cats = [Simon,Sally,ally]
+my_cats = [simon,sall,alel]
 
 #3 Instantiate the Pet class with all your cats use variable my_pets
-
-my_pets=Pets(my_cats)
-print(my_pets.walk())
+my_pets = Pets(my_cats)
 
 #4 Output all of the cats walking using the my_pets instance
+my_pets.walk()
