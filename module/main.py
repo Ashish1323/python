@@ -1,5 +1,5 @@
-import imp
+import package.lowde as l
 
-print(imp.mul(2, 3))
+print(l.lund())
 
 # output first import!!
